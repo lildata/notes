@@ -37,7 +37,9 @@ java.util.Properties => scala.collection.mutable.Map[String, String]
     val name = "Fred"
     println(s"My name is $name.")
     
+    println(s"First Name: ${u.firstName.getOrElse("not assigned")}")
     
+    println(f"
 
 
 ### Enums
