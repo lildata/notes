@@ -48,7 +48,11 @@ java.util.Properties => scala.collection.mutable.Map[String, String]
         type Margin = Value
         val TOP, BOTTOM, LEFT, RIGHT = Value
     }
-  
+
+
+    Margin.values foreach println
+    
+
 #### Using traits as Enums
 
     trait Margin
