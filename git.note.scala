@@ -15,7 +15,7 @@ Object Git {
 		"git branch mysamplebranch" -> "create a branch",
 		"git checkout mysamplebranch" -> "switch to mysamplbranch branch",
 		"git rm somefile.txt" -> "remove the file on disk + stage the removal of the file on the repo",
-		"git merge mysamplebranch" -> "merge a branch to the master branch"
+		"git merge mysamplebranch" -> "merge a branch to the master branch",
 		"git branch -d mysamplebranch" -> "delete the branch"		
 	)
 }
