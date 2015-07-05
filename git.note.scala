@@ -1,4 +1,4 @@
-Object Commands {
+Object Git {
 	val commands = LinkedHashMap(
 		"git init" -> "Initialize a repository and create .git/",
 		"git status" -> "status of the sync, if there is something to comit...",
